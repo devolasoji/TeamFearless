@@ -3,42 +3,52 @@
 }
 
 .container-fluid{
-       display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: orange;
     
 }
+
+
 .img-container{
     text-align: center;
     float: left;
- margin: 10% 0 10% 0;
+    margin: 10% 0 10% 0;
  
 }
+
+
 img{
     width: 100%;
     height: 50%;
     padding-left: 2%;
 }
 
+
 .form-container{
     background-color: white;
-   height: 150%;
+    height: 150%;
     width: 100%;
-  text-align: center;
-  margin: 10% 0 10% 0;
+    text-align: center;
+    margin: 10% 0 10% 0;
 
 }
+
 
 h1{
     padding: 10% 0 2% 0;
     color: #ff8800;
 }
+
+
 h2{
     padding: 5%;
     color: red;
 }
+
+
 p input{
     display: block;
     border: none;
@@ -47,19 +57,26 @@ p input{
     padding: 3%;
        
 }
+
+
 p input:focus{
     border: 2px solid red;
-    
 }
+
+
 
 a{
     padding-left: 2%;
 }
 
 
+
+
 .buttons{
     padding: 15%;
 }
+
+
 
 button{
     margin-right: 10px;
@@ -70,6 +87,7 @@ button{
     width: 50%;
     
 }
+
 
 
 button:hover{
